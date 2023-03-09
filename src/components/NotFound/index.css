@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.not-found-container-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.not-found-container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 80vh;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.not-found-image {
+  width: 30%;
+}

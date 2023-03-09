@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.container-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: black;
+}
+.image {
+  width: 20%;
+}
+.light-heading {
+  color: black;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.dark-heading {
+  color: white;
+  font-weight: 500;
+  font-family: 'Roboto';
+}

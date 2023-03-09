@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.nav-container-light {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 2px 0px #dcdcdc;
+  padding: 10px 10px;
+}
+.nav-container-dark {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 2px 0px #dcdcdc;
+  padding: 10px 10px;
+  background-color: #333333;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.item-light {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+.item-dark {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+li {
+  margin: 5px;
+}
+.item-container {
+  display: flex;
+  list-style-type: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
