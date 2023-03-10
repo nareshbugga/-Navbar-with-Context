@@ -1,5 +1,6 @@
 // Write your code here
 import './index.css'
+import Navbar from '../Navbar'
 import ThemeContext from '../../context/ThemeContext'
 
 const NotFound = () => (
@@ -9,6 +10,7 @@ const NotFound = () => (
       return (
         <>
           <div>
+            <Navbar />
             {isDarkTheme ? (
               <div className="not-found-container-dark">
                 <img

@@ -1,5 +1,6 @@
 // Write your code here
 import './index.css'
+import Navbar from '../Navbar'
 import ThemeContext from '../../context/ThemeContext'
 
 const About = () => (
@@ -8,6 +9,7 @@ const About = () => (
       const {isDarkTheme} = value
       return (
         <>
+          <Navbar />
           {isDarkTheme ? (
             <div className="container-dark">
               <img

@@ -8,8 +8,6 @@ import About from './components/About'
 
 import NotFound from './components/NotFound'
 
-import Navbar from './components/Navbar'
-
 import ThemeContext from './context/ThemeContext'
 
 import './App.css'
@@ -28,7 +26,6 @@ class App extends Component {
       <ThemeContext.Provider
         value={{isDarkTheme, toggleTheme: this.toggleTheme}}
       >
-        <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
